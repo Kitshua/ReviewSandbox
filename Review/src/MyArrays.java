@@ -22,17 +22,17 @@ public class MyArrays {
 
         System.out.println("Double Array");
         // Method 1: Using Arrays.toString()
-        System.out.println("Method 1: toString" + Arrays.deepToString(matrix));
+        System.out.println("Method 1: toString\n" + Arrays.deepToString(matrix));
 
         // Method 2: Using a for loop
-        System.out.print("Method 2: for loop");
+        System.out.print("Method 2: for loop\n");
         for (int i = 0; i < matrix.length; i++) {
             System.out.print(Arrays.toString(matrix[i]) + " ");
         }
         System.out.println();
 
         // Method 3: Using for-each loop
-        System.out.print("Method 3: for-each loop");
+        System.out.print("Method 3: for-each loop\n");
         for (int[] value : matrix) {
             System.out.print(Arrays.toString(value) + " ");
         }
